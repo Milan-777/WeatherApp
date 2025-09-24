@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  background-color: rgba(141, 3, 3, 0.515);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+.searchbar {
+  height: 40px;
+  width: 360px;
+  margin-bottom: 15px;
+}
+input {
+  height: 100%;
+  width: 60%;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 0.586),
+    rgba(0, 0, 255, 0.551)
+  );
+  padding: 0px 10px;
+  color: yellow;
+  cursor: pointer;
+  margin-right: 3px;
+}
+button {
+  height: 97%;
+  width: 30%;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: rgb(209, 209, 0);
+  font-size: 1rem;
+}
+button:hover {
+  background-color: yellow;
+}
+
+
+
+
+
+
+
+
+
+.rezults {
+  background-color: rgb(208, 231, 255);
+  height: 500px;
+  width: 450px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+}
+.img {
+  height: 34%;
+  width: 50%;
+  border-radius: 100%;
+  position: absolute;
+  top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("img4.webp") center center no-repeat;
+  background-size: cover;
+}
+.info {
+  height: 55%;
+  width: 90%;
+  background-color: white;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 20px;
+  padding: 25px 45px;
+}
